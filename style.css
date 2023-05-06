@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-image: linear-gradient(to right top, #bdc7d6, #cfd4e0, #e0e2ea, #f0f0f4, #ffffff);
+}
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    0% { 
+        opacity:0;
+    }100% {
+        opacity: 1;
+    } 
+}
+
+.home-page{
+    width: 600px;
+    max-height: 100%;
+    background-color: #bdc7d6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    font-weight: 600;
+    border: none;
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    /* height: 4.6rem; */
+    border-radius: 0 0 10px 10px;
+    background-color: #640707;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #830909; 
+}
+/* Instruction Page */
+.home-page p {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #000;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+.home-page p span {
+    color: #d1b608;
+    background-color: #fff;
+    padding: .5rem;
+    border-radius: 5px;
+}
+/* Question Page */
+.questions{
+    width: 500px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 1rem 0;
+    background-color: #bdc7d6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.countup{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgb(238, 30, 30);
+}
+.needs-elements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.needs-elements .timer {
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: 2px solid #000;
+    padding: .5rem 1rem;
+}
+.header hr{
+    width: 100%;
+    height: 1px;
+    background-color:#fff ;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+.header {
+    padding: 2rem;
+}
+
+h1{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+.header p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+ul li {
+    margin: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+ul li label:hover {
+    background-color: #fff;
+}
+ul li label {
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Result Page */
+
+.result-page {
+    width: 600px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 1rem 0;
+    background-color: #bdc7d6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+.result-page table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+    text-align: left;
+}
+
+.result-page table td {
+    vertical-align: middle;
+    padding: 8px 15px;
+    border: 1px solid #000000;
+    font-size: 1.4rem;
+    font-weight: 600;
+
+}
+
+.btn-right {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #640707;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
